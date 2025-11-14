@@ -70,48 +70,6 @@ go mod tidy
 ### Start Server
 ```
 go run main.go
-```
 
----
-
-## 🧪 API Endpoints
-
-### Auth
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/auth/register` | Register |
-| POST | `/auth/login` | Login |
-
-### Pets
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/pets` | Add pet |
-| GET | `/pets` | List pets |
-| GET | `/pets/:id` | Get pet |
-| PUT | `/pets/:id` | Update |
-| DELETE | `/pets/:id` | Delete |
-
-### Owners
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST | `/owners` | Add owner |
-| GET | `/owners` | List owners |
-
-
-
-## 📦 Build Production Binary
-
-```
-go build -o petclinic
-./petclinic
-```
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome.
-
----
 
 
