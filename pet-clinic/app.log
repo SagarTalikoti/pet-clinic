@@ -1,0 +1,105 @@
+{"level":"debug","msg":"Received login request","time":"2025-11-10 12:49:02"}
+{"level":"debug","msg":"Attempting login via JSON body","time":"2025-11-10 12:49:02","username":"admin"}
+{"level":"info","msg":"Generating JWT token","time":"2025-11-10 12:49:02","username":"admin"}
+{"level":"info","msg":"JWT token generated successfully","time":"2025-11-10 12:49:02","username":"admin"}
+{"level":"info","msg":"User logged in successfully","time":"2025-11-10 12:49:02","username":"admin"}
+{"level":"debug","msg":"Received login request","time":"2025-11-10 12:49:15"}
+{"level":"debug","msg":"Attempting login via JSON body","time":"2025-11-10 12:49:15","username":"admin"}
+{"level":"info","msg":"Generating JWT token","time":"2025-11-10 12:49:15","username":"admin"}
+{"level":"info","msg":"JWT token generated successfully","time":"2025-11-10 12:49:15","username":"admin"}
+{"level":"info","msg":"User logged in successfully","time":"2025-11-10 12:49:15","username":"admin"}
+{"level":"info","msg":"JWT token validated successfully","path":"/api/download/background.jpg","time":"2025-11-10 12:49:43"}
+{"filename":"background.jpg","level":"debug","msg":"Received download request","time":"2025-11-10 12:49:43"}
+{"filename":"background.jpg","level":"info","msg":"File downloaded successfully","time":"2025-11-10 12:49:43"}
+{"level":"info","msg":"JWT token validated successfully","path":"/api/pets","time":"2025-11-10 13:41:33"}
+{"level":"info","msg":"GET /pets called","time":"2025-11-10 13:41:33"}
+{"error":"token has invalid claims: token is expired","level":"error","msg":"Invalid or expired JWT token","time":"2025-11-10 13:41:44"}
+{"level":"debug","msg":"Received login request","time":"2025-11-10 13:42:09"}
+{"level":"debug","msg":"Attempting login via JSON body","time":"2025-11-10 13:42:09","username":"admin"}
+{"level":"info","msg":"Generating JWT token","time":"2025-11-10 13:42:09","username":"admin"}
+{"level":"info","msg":"JWT token generated successfully","time":"2025-11-10 13:42:09","username":"admin"}
+{"level":"info","msg":"User logged in successfully","time":"2025-11-10 13:42:09","username":"admin"}
+{"level":"warning","msg":"Missing Authorization header","time":"2025-11-10 13:43:01"}
+{"level":"info","msg":"JWT token validated successfully","path":"/api/owners","time":"2025-11-10 13:43:30"}
+{"level":"debug","msg":"GET /owners called","time":"2025-11-10 13:43:30"}
+{"count":5,"level":"info","msg":"Owners fetched successfully","time":"2025-11-10 13:43:30"}
+{"level":"info","msg":"JWT token validated successfully","path":"/api/appointments","time":"2025-11-10 13:43:42"}
+{"level":"info","msg":"JWT token validated successfully","path":"/api/pets","time":"2025-11-10 13:43:58"}
+{"level":"info","msg":"GET /pets called","time":"2025-11-10 13:43:58"}
+{"level":"debug","msg":"Logger initialized in DEBUG mode (verbose output)","time":"2025-11-10 13:44:59"}
+{"level":"info","msg":"Logger initialized successfully","time":"2025-11-10 13:44:59"}
+{"level":"warning","msg":"Logger rotation is active","time":"2025-11-10 13:44:59"}
+{"level":"error","msg":"Test ERROR log (for verification only)","time":"2025-11-10 13:44:59"}
+{"level":"info","msg":"Pet Clinic API server starting...","time":"2025-11-10 13:44:59"}
+{"level":"info","msg":" Server running at :9090","time":"2025-11-10 13:45:00"}
+{"level":"debug","msg":"Logger initialized in DEBUG mode (verbose output)","time":"2025-11-10 13:45:28"}
+{"level":"info","msg":"Logger initialized successfully","time":"2025-11-10 13:45:28"}
+{"level":"warning","msg":"Logger rotation is active","time":"2025-11-10 13:45:28"}
+{"level":"error","msg":"Test ERROR log (for verification only)","time":"2025-11-10 13:45:28"}
+{"level":"info","msg":"Pet Clinic API server starting...","time":"2025-11-10 13:45:28"}
+{"level":"info","msg":" Server running at :9090","time":"2025-11-10 13:45:29"}
+{"level":"debug","msg":"Received login request","time":"2025-11-10 13:45:47"}
+{"level":"debug","msg":"Attempting login via JSON body","time":"2025-11-10 13:45:47","username":"admin"}
+{"level":"info","msg":"Generating JWT token","time":"2025-11-10 13:45:47","username":"admin"}
+{"level":"info","msg":"JWT token generated successfully","time":"2025-11-10 13:45:47","username":"admin"}
+{"level":"info","msg":"User logged in successfully","time":"2025-11-10 13:45:47","username":"admin"}
+{"level":"info","msg":"JWT token validated successfully","path":"/api/upload","time":"2025-11-10 13:48:36"}
+{"level":"debug","msg":"Received file upload request","time":"2025-11-10 13:48:36"}
+{"error":"http: no such file","level":"warning","msg":"Missing 'file' field in upload request","time":"2025-11-10 13:48:36"}
+{"level":"debug","msg":"Received login request","time":"2025-11-10 13:48:53"}
+{"level":"debug","msg":"Attempting login via JSON body","time":"2025-11-10 13:48:53","username":"admin"}
+{"level":"info","msg":"Generating JWT token","time":"2025-11-10 13:48:53","username":"admin"}
+{"level":"info","msg":"JWT token generated successfully","time":"2025-11-10 13:48:53","username":"admin"}
+{"level":"info","msg":"User logged in successfully","time":"2025-11-10 13:48:53","username":"admin"}
+{"level":"info","msg":"JWT token validated successfully","path":"/api/upload","time":"2025-11-10 13:49:31"}
+{"level":"debug","msg":"Received file upload request","time":"2025-11-10 13:49:31"}
+{"filename":"SagarOOMD.pdf","level":"info","msg":"File uploaded successfully","time":"2025-11-10 13:49:31"}
+{"level":"debug","msg":"Received login request","time":"2025-11-10 13:50:47"}
+{"level":"debug","msg":"Attempting login via JSON body","time":"2025-11-10 13:50:47","username":"admin"}
+{"level":"info","msg":"Generating JWT token","time":"2025-11-10 13:50:47","username":"admin"}
+{"level":"info","msg":"JWT token generated successfully","time":"2025-11-10 13:50:47","username":"admin"}
+{"level":"info","msg":"User logged in successfully","time":"2025-11-10 13:50:47","username":"admin"}
+{"level":"info","msg":"JWT token validated successfully","path":"/api/download/SagarOOMD","time":"2025-11-10 13:52:31"}
+{"filename":"SagarOOMD","level":"debug","msg":"Received download request","time":"2025-11-10 13:52:31"}
+{"filename":"SagarOOMD","level":"warning","msg":"Requested file not found","time":"2025-11-10 13:52:31"}
+{"level":"info","msg":"JWT token validated successfully","path":"/api/download/SagarOOMD.pdf","time":"2025-11-10 13:52:37"}
+{"filename":"SagarOOMD.pdf","level":"debug","msg":"Received download request","time":"2025-11-10 13:52:37"}
+{"filename":"SagarOOMD.pdf","level":"info","msg":"File downloaded successfully","time":"2025-11-10 13:52:37"}
+{"level":"debug","msg":"Received login request","time":"2025-11-10 13:54:47"}
+{"level":"debug","msg":"Attempting login via JSON body","time":"2025-11-10 13:54:47","username":"admin"}
+{"level":"info","msg":"Generating JWT token","time":"2025-11-10 13:54:47","username":"admin"}
+{"level":"info","msg":"JWT token generated successfully","time":"2025-11-10 13:54:47","username":"admin"}
+{"level":"info","msg":"User logged in successfully","time":"2025-11-10 13:54:47","username":"admin"}
+{"level":"debug","msg":"Received login request","time":"2025-11-10 13:54:50"}
+{"level":"debug","msg":"Attempting login via JSON body","time":"2025-11-10 13:54:50","username":"admin"}
+{"level":"info","msg":"Generating JWT token","time":"2025-11-10 13:54:50","username":"admin"}
+{"level":"info","msg":"JWT token generated successfully","time":"2025-11-10 13:54:50","username":"admin"}
+{"level":"info","msg":"User logged in successfully","time":"2025-11-10 13:54:50","username":"admin"}
+{"level":"info","msg":"JWT token validated successfully","path":"/api/pets","time":"2025-11-10 13:55:09"}
+{"level":"info","msg":"GET /pets called","time":"2025-11-10 13:55:09"}
+{"level":"debug","msg":"Logger initialized in DEBUG mode (verbose output)","time":"2025-11-13 14:03:01"}
+{"level":"info","msg":"Logger initialized successfully","time":"2025-11-13 14:03:01"}
+{"level":"warning","msg":"Logger rotation is active","time":"2025-11-13 14:03:02"}
+{"level":"error","msg":"Test ERROR log (for verification only)","time":"2025-11-13 14:03:02"}
+{"level":"info","msg":"Pet Clinic API server starting...","time":"2025-11-13 14:03:02"}
+{"level":"info","msg":" Server running at :9090","time":"2025-11-13 14:03:04"}
+{"level":"debug","msg":"Received login request","time":"2025-11-13 14:06:53"}
+{"level":"debug","msg":"Attempting login via JSON body","time":"2025-11-13 14:06:53","username":"admin"}
+{"level":"info","msg":"Generating JWT token","time":"2025-11-13 14:06:53","username":"admin"}
+{"level":"info","msg":"JWT token generated successfully","time":"2025-11-13 14:06:53","username":"admin"}
+{"level":"info","msg":"User logged in successfully","time":"2025-11-13 14:06:53","username":"admin"}
+{"error":"token has invalid claims: token is expired","level":"error","msg":"Invalid or expired JWT token","time":"2025-11-13 14:07:34"}
+{"level":"debug","msg":"Received login request","time":"2025-11-13 14:07:49"}
+{"level":"debug","msg":"Attempting login via JSON body","time":"2025-11-13 14:07:50","username":"admin"}
+{"level":"info","msg":"Generating JWT token","time":"2025-11-13 14:07:50","username":"admin"}
+{"level":"info","msg":"JWT token generated successfully","time":"2025-11-13 14:07:50","username":"admin"}
+{"level":"info","msg":"User logged in successfully","time":"2025-11-13 14:07:50","username":"admin"}
+{"level":"info","msg":"JWT token validated successfully","path":"/api/pets","time":"2025-11-13 14:08:04"}
+{"level":"info","msg":"GET /pets called","time":"2025-11-13 14:08:04"}
+{"level":"debug","msg":"Received login request","time":"2025-11-13 14:20:30"}
+{"error":"EOF","level":"warning","msg":"Invalid JSON in login request","time":"2025-11-13 14:20:31"}
+{"level":"debug","msg":"Received login request","time":"2025-11-13 14:21:14"}
+{"level":"debug","msg":"Attempting login via JSON body","time":"2025-11-13 14:21:14","username":"admin"}
+{"level":"info","msg":"Generating JWT token","time":"2025-11-13 14:21:15","username":"admin"}
+{"level":"info","msg":"JWT token generated successfully","time":"2025-11-13 14:21:15","username":"admin"}
+{"level":"info","msg":"User logged in successfully","time":"2025-11-13 14:21:15","username":"admin"}
