@@ -103,3 +103,9 @@
 {"level":"info","msg":"Generating JWT token","time":"2025-11-13 14:21:15","username":"admin"}
 {"level":"info","msg":"JWT token generated successfully","time":"2025-11-13 14:21:15","username":"admin"}
 {"level":"info","msg":"User logged in successfully","time":"2025-11-13 14:21:15","username":"admin"}
+{"level":"debug","msg":"Logger initialized in DEBUG mode (verbose output)","time":"2025-11-14 13:52:30"}
+{"level":"info","msg":"Logger initialized successfully","time":"2025-11-14 13:52:30"}
+{"level":"warning","msg":"Logger rotation is active","time":"2025-11-14 13:52:30"}
+{"level":"error","msg":"Test ERROR log (for verification only)","time":"2025-11-14 13:52:30"}
+{"level":"info","msg":"Pet Clinic API server starting...","time":"2025-11-14 13:52:30"}
+{"level":"info","msg":" Server running at :9090","time":"2025-11-14 13:52:30"}
