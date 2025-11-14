@@ -1,0 +1,117 @@
+
+## 📁 Project Structure
+
+```
+pet-clinic/
+│
+├── auth/              # JWT auth, middleware
+├── db/                # Database connection files
+├── handlers/          # Route handlers
+├── models/            # Models / Structs
+├── uploads/           # Uploaded files (images)
+├── utils/             # Helper functions
+│
+├── .env               # Environment variables
+├── app.log            # Log file
+├── main.go            # Entry point
+├── go.mod
+└── go.sum
+```
+
+---
+
+## 🚀 Features
+
+- 🔐 JWT Authentication  
+- 🐶 Pet CRUD  
+- 👨‍⚕️ Owner management  
+- 📁 File uploads  
+- 💾 Database integration  
+- 🧰 Clean Go module structure  
+- 📝 File logging  
+
+---
+
+##  Tech Stack
+
+| Component | Technology |
+|----------|------------|
+| Language | Go 1.20+ |
+| Auth | JWT |
+| Database | MySQL / PostgreSQL |
+| Logging | File logs |
+| Tools | VS Code, Git, Postman |
+
+---
+
+## 🔑 Environment Variables
+
+Your `.env` file should contain:
+
+```
+PORT=8080
+DB_USER=root
+DB_PASSWORD=yourpassword
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=pet_clinic
+JWT_SECRET=your_secret_key
+```
+
+---
+
+## ▶️ Run the Project
+
+### Install modules
+```
+go mod tidy
+```
+
+### Start Server
+```
+go run main.go
+```
+
+---
+
+## 🧪 API Endpoints
+
+### Auth
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/auth/register` | Register |
+| POST | `/auth/login` | Login |
+
+### Pets
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/pets` | Add pet |
+| GET | `/pets` | List pets |
+| GET | `/pets/:id` | Get pet |
+| PUT | `/pets/:id` | Update |
+| DELETE | `/pets/:id` | Delete |
+
+### Owners
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/owners` | Add owner |
+| GET | `/owners` | List owners |
+
+
+
+## 📦 Build Production Binary
+
+```
+go build -o petclinic
+./petclinic
+```
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome.
+
+---
+
+
