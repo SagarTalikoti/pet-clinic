@@ -18,58 +18,29 @@ pet-clinic/
 └── go.sum
 ```
 
----
 
-## 🚀 Features
+Pet Clinic API (Go + PostgreSQL)
+A minimal REST-style API for a Pet Clinic built in Go, backed by PostgreSQL.
 
-- 🔐 JWT Authentication  
-- 🐶 Pet CRUD  
-- 👨‍⚕️ Owner management  
-- 📁 File uploads  
-- 💾 Database integration  
-- 🧰 Clean Go module structure  
-- 📝 File logging  
+Overview
+Language: Go
+Database: PostgreSQL
+Driver: github.com/lib/pq
+Module: petclinic
+Quick Start
 
----
+Install Prerequisites
+Go
+PostgreSQL
 
-##  Tech Stack
+Clone the Project
+git clone <your-repo-url>
+cd petclinic
 
-| Component | Technology |
-|----------|------------|
-| Language | Go 1.20+ |
-| Auth | JWT |
-| Database | MySQL / PostgreSQL |
-| Logging | File logs |
-| Tools | VS Code, Git, Postman |
-
----
-
-## 🔑 Environment Variables
-
-Your `.env` file should contain:
-
-```
-PORT=8080
-DB_USER=root
-DB_PASSWORD=yourpassword
-DB_HOST=localhost
-DB_PORT=3306
-DB_NAME=pet_clinic
-JWT_SECRET=your_secret_key
-```
-
----
-
-## ▶️ Run the Project
-
-### Install modules
-```
+Run the Application
+go get github.com/lib/pq
 go mod tidy
-```
+go run .
 
-### Start Server
-```
-go run main.go
-
-
-
+API Routes
+Base URL: http://localhost:9090
